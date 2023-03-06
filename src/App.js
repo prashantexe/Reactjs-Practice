@@ -1,25 +1,23 @@
-import logo from './logo.svg';
 import './App.css';
+import Todolist from './Todolist';
+import './Todolist.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <div className="App"><div className="ABC">
+<Todolist /></div>
+</div>
   );
 }
+
+const Job = (props) => {
+  return(
+    <div>
+      <h1>{props.salary}</h1>
+      <h1>{props.position}</h1>
+      <h1>{props.company}</h1>
+    </div>
+  );
+};
 
 export default App;
