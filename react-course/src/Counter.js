@@ -3,12 +3,13 @@ import React, { Component } from 'react'
 export default class Counter extends Component {
 
     render(){
-        return(
+    return(
         <div>
-      <button>-</button>
-      <span>0</span>
-      <button>+</button>
-    </div>)
+            <button>-</button>
+            <span>0</span>
+            <button>+</button>
+         </div>
+        )
     }
 
 }
