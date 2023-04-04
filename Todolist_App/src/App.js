@@ -16,6 +16,7 @@ const Job = (props) => {
       <h1>{props.salary}</h1>
       <h1>{props.position}</h1>
       <h1>{props.company}</h1>
+<h2>Done</h2>
     </div>
   );
 };
